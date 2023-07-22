@@ -1,0 +1,486 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+.nav-bar-container,
+header,
+.header-buttons-container,
+.heading-div,
+.service-section-container,
+.service-section-box,
+footer,
+.social-media-icons-container {
+    display: flex;
+}
+
+.nav-bar-container,
+.header-buttons-container,
+.service-section-container,
+.social-media-icons-container {
+    flex-direction: row;
+}
+
+ul li a,
+.header-buttons-container a {
+    text-decoration: none;
+}
+
+header,
+.heading-div,
+.service-section-box,
+footer {
+    flex-direction: column;
+}
+
+header {
+    padding: 6px 32px 2px 22px;
+}
+
+.header-heading{
+    clip-path: polygon(0% 0%,0% 100%,100% 100%,100% 0%);
+    font-size: 1.2rem;
+}
+
+body::-webkit-scrollbar,
+.feedback-box-div {
+    background: linear-gradient(rgb(32, 0, 94), rgba(88, 0, 252, 0.37));
+}
+
+body::-webkit-scrollbar-thumb,
+.feedback-box-div {
+    background: rgba(1, 1, 42, 0.37);
+    border-radius: 2px;
+}
+
+body::-webkit-scrollbar-button {
+    display: none;
+}
+
+.nav-bar-container {
+    justify-content: space-between;
+}
+
+.heading-div h2 {
+    color: white;
+    font-family: "Montserrat";
+    margin-top: -30px;
+}
+
+nav,
+ul {
+    display: flex;
+}
+
+nav,
+ul {
+    flex-direction: row;
+}
+
+ul {
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-size: 1.1rem;
+    font-family: "Lato";
+    color: white;
+}
+
+a {
+    padding: 7px 14px 7px 14px;
+    border-radius: 8px;
+}
+
+header {
+    background-image: linear-gradient(to left, rgba(96, 0, 255, 0.4), rgba(101, 0, 248, 0.47)), url('images/pexels-fauxels-3183197.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 84vh;
+    clip-path: polygon(0% 0% ,0% 80%,100% 100%,100% 0%);
+}
+
+
+.header-buttons-container {
+    margin-left: 20px;
+}
+
+.header-buttons-container a {
+    margin: 20px 0px 0px 20px;
+    background: white;
+    color: black;
+    box-shadow: .2px .2px 3px .2px white;
+}
+
+.header-heading {
+    line-height: 50px;
+    color: white;
+    margin: 80px 0px 0px 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.line {
+    width: 30%;
+    height: .3rem;
+    background: black;
+}
+
+.website-heading-div h2 {
+    color: white;
+}
+
+.heading-div h2 {
+    color: black;
+}
+
+.heading-div {
+    align-items: center;
+    justify-content: center;
+}
+
+.service-section-container {
+    justify-content: center;
+    gap: 170px;
+}
+
+.service-section p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.service-section-box {
+    width: 16rem;
+    height: 15rem;
+    box-shadow: .2px .2px 4px .2px lightgray;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-section-box:hover{
+    box-shadow: .2px .2px 4px .2px #7000e1;
+    transition: .2s;
+}
+
+
+.service-section-box img {
+    width: 6rem;
+    height: auto;
+}
+
+.service-section-box img {
+    width: 6rem;
+    height: auto;
+}
+
+.associative-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.associative-section p{
+
+    text-align: center;
+    font-size: 2rem;
+    font-size: 1.3rem;
+}
+
+.all-associative-container{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+}
+
+.associative-container{
+    margin-left: 150px;
+    width: 80%;
+    padding:22px 2px 12px 2px;
+    box-shadow: .2px .2px 3px .2px lightgray;
+    justify-content: center;
+    gap:150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.associative-container:nth-child(1){
+    border-left: 5px solid #2f05b2;
+}
+
+.associative-container:nth-child(2){
+    border-right: 5px solid #2f05b2;
+}
+
+.associative-container:nth-child(3){
+    border-left: 5px solid #2f05b2;
+}
+
+.associative-container:nth-child(4){
+    border-right: 5px solid #2f05b2;
+}
+
+.associative-container:focus{
+    box-shadow: 0px 0px 0px 1px #2f05b2;
+
+}
+
+.associative-section-image-div img{
+    width: 6rem;
+    height: auto;
+}
+
+.associative-section-para-div p{
+    font-size: 1.3rem;
+}
+
+.associative-section-para-div h2{
+    margin-left: 100px;
+}
+
+footer {
+    margin-top: 50px;
+    background-image: linear-gradient(to left, rgba(17, 0, 56, 0.94), rgb(26, 2, 61));
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 27vh;
+    padding: 10px 0px 0px 0px;
+    color: white;
+    align-items: center;
+}
+
+.service-section-image-div img{
+    width: 7rem;
+
+}
+
+.social-media-icons-container {
+    margin-top: 30px;
+    gap: 80px;
+}
+
+.social-media-icons-container ion-icon {
+    font-size: 2rem;
+}
+
+.social-media-icons-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.all-social-media-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.log-in-box {
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 27rem;
+    height: 23rem;
+    background: white;
+    box-shadow: .2px .2px 5px .2px lightgray;
+    animation: logInBox .2s ease-in-out;
+}
+
+.log-in-box-heading {
+    margin-left: -50px;
+    text-align: center;
+}
+
+.log-in-box-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.log-in-box-input {
+    outline: none;
+    width: 90%;
+    padding: 5px 6px 5px 6px;
+    box-shadow: .2px .2px 12px .2px #e5e5e5;
+    border: none;
+}
+
+.log-in-box-input:focus {
+    box-shadow: 0px 0px 0px 1px #2f05b2;
+}
+
+@keyframes logInBox {
+    0% {
+        transform: rotate(5deg);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.box-log-in-button {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    padding: 5px 17px 7px 17px;
+    margin: 20px 0px 0px 170px;
+    border: none;
+    background: linear-gradient(to left,rgb(101, 0, 183), rgba(113, 0, 176, 0.95));
+    box-shadow: .2px .2px 7px .2px rgb(140, 11, 245);
+    color: white;
+}
+
+.box-log-in-button:hover{
+    box-shadow: .2px .2px 7px .2px lightgray;
+    background: white;
+    color:black;
+    cursor: pointer;
+}
+
+.remember-password-div {
+    margin-top: 0px;
+}
+
+.remember-password-checkbox {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.remove-log-in-box-icon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    border: none;
+    background: transparent;
+    padding: 5px 2px 2px 2px;
+}
+
+.remove-log-in-box-icon {
+    font-size: 1.2rem;
+    border: none;
+    background: transparent;
+    color: black;
+}
+
+.remember-checkbox {
+    margin: 12px 2px 2px 32px;
+}
+
+.remember-check-box-text {
+    font-family: 'Roboto';
+    margin: 9px 2px 2px -22px;
+}
+
+.remember-password-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 30px;
+}
+
+.page-box{
+    position: fixed;
+    top:0%;
+    width: 100%;
+    background: black;
+    opacity: .6;
+    height: 60rem;
+}
+
+
+.top-bar-button-icon{
+    visibility: hidden;
+    box-shadow: .2px .2px 2px .2px #0951ec;
+    background: #000f5b;
+    color:white;
+    border-radius: 200px;
+    position: fixed;
+    top:92%;
+    left:97%;
+    border:none;
+    padding:9px 8px 2px 8px;
+    font-size: 1.3rem;
+
+}
+
+.show-nav-bar{
+    display:none;
+}
+
+.nav-bar{
+    position: fixed;
+    top:15%;
+    left: 10%;
+    width: 20rem;
+    height:22rem;
+    box-shadow: .2px .2px 3px .2px lightgray;
+    background: white;
+}
+
+.show-error{
+    color:red;
+}
+
+.wallet-icon{
+    transition: .3s;
+    color:white;
+    border:none;
+    box-shadow: .2px .2px 3px .2px #270150;
+    background: #8100ea;
+    font-size: 1.5rem;
+    padding:5px 20px 3px 20px;
+    position: fixed;
+    top:2%;
+    left: 48%;
+}
+
+.show-reward-box{
+    box-shadow: .2px .2px 3px .2px #8100ea;
+    background: #8100ea;
+    position: fixed;
+    top:12%;
+    left: 38%;
+    width: 22rem;
+    height: 25rem;
+}
+
+.show-reward-box{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: showWalletIcon .2s ease-in;
+
+}
+
+@keyframes showWalletIcon {
+    0% {
+        transform: rotate(5deg);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.show-error{
+    margin-left:10px;
+}

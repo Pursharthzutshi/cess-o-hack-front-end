@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+ .container,.payment-gateway, .box-container, .all-box-container, .box, .box-row,.left-sidebar  {
+    display: flex;
+}
+
+.container,.box-row {
+    flex-direction: row;
+}
+
+.box-column, .payment-gateway, .box-container, .all-box-container, .box ,.left-sidebar {
+    flex-direction: column;
+}
+
+.all-box-container {
+    margin-left: 15%;
+    gap: 40px;
+}
+
+.container {
+    gap: 120px;
+}
+
+
+
+.left-sidebar {
+    gap:80px;
+    position: fixed;
+    left: 0%;
+    color: white;
+    width: 26rem;
+    height: 100vh;
+    background: linear-gradient(to left, #03033f, #00001e);
+}
+
+.left-sidebar img{
+    margin: 20px 0px 0px 50px;
+    width: 21rem;
+    height:auto;
+}
+
+
+.payment-gateway {
+    width: 70%;
+    margin-left: 450px;
+}
+
+.payment-gateway p{
+    font-family:'Roboto';
+    border-radius: 20px;
+    padding:2px 2px 2px 12px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.box,.box-2,.box-3 {
+    border-radius: 20px;
+    box-shadow: .2px .2px 8px .2px #f1f1f1;
+    background: white;
+    padding: 2px 16px 22px 22px;
+    gap: 30px;
+    width: 70%;
+}
+
+
+.all-box-container .box-container:nth-child(1) .box{
+    height: 23rem;
+
+}
+
+.all-box-container .box-container:nth-child(2) .box{
+    height:8rem;
+
+
+}
+
+.box p {
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+}
+
+.box-row {
+    gap: 30px;
+}
+
+.box-row input {
+    outline: none;
+    width: 40%;
+    border: none;
+    box-shadow: .2px .2px 5px .2px lightgray;
+    padding: 7px 32px 5px 8px;
+    border-left: 3px solid #00001e;
+}
+
+.box-row input:focus {
+    box-shadow: 0px 0px 0px 1px #002254;
+    transition: .3s;
+}
+
+.box-row input::placeholder {
+    font-family: "Montserrat";
+}
